@@ -1,0 +1,12 @@
+def hello_world(number):
+    """ Checking for the condition i.e if number entered by the user is divisible by 5 and 7"""
+    if user_entry % 5 == 0 and user_entry % 7 == 0:
+        print("Hello World")
+    elif user_entry % 5 == 0:       # Checking if number entered by the user is divisible by 5
+        print("Hello")
+    elif user_entry % 7 == 0:       # Checking if number entered by the user is divisible by 7
+        print("World")
+
+
+user_entry = int(input("Enter the Number to check...!")) # Only allowing the user to enter integer value.
+hello_world(number=user_entry)
